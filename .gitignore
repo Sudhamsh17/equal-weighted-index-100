@@ -1,0 +1,57 @@
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Logs and local environment files
+*.log
+*.env
+.envrc
+*.ini
+*.cfg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# VSCode settings
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs (PyCharm)
+.idea/
+
+# Test coverage reports
+.coverage
+htmlcov/
+.cache/
+.nox/
+
+# MyPy type checking
+.mypy_cache/
+
+# pytest cache
+.pytest_cache/
+
+# Profiling data
+*.prof
+
+# Jupyter Notebooks
+*.ipynb
+.ipynb_checkpoints/
