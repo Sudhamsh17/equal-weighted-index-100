@@ -50,8 +50,9 @@ Traditional market indices often weight stocks based on market capitalization, g
    python index_computation_wrapper.py
    ```
    - The above computes and dumps index data from "2025-01-02" to "2025-02-07" to "market_data.db"
+   - Estimated run time is around 40 minutes (This is due to 1 minute sleep time added in between dates, though this can be reduced)
 
-2. **Dumping data to excel/pdf for any custom analysis**:
+2. **Dumping data to Excel/pdf for any custom analysis**:
    ```
    >>> from stats_helper import StatsHelper
    >>> stats_obj = StatsHelper()
@@ -61,7 +62,7 @@ Traditional market indices often weight stocks based on market capitalization, g
    >>> stats_obj.dump_index_composition("2025-02-07", "pdf", "index_composition_20250207")
    >>> stats_obj.dump_index_performance("pdf", "index_performance")
 
-   → To dump in excel format:
+   → To dump in Excel format:
 
    >>> stats_obj.dump_index_composition("2025-02-07", "excel", "index_composition_20250207")
    >>> stats_obj.dump_index_performance("excel", "index_performance")
