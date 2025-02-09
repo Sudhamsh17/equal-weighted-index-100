@@ -69,6 +69,7 @@ Traditional market indices often weight stocks based on market capitalization, g
 
 
 3. **Visualization**:
+   - As I already ran the index computations part and stored the relevant data in market_data.db, you can directly run the below to start the dashboard.
    - Utilize the `dashboard.py` script to generate interactive plots of the index performance.
    - The script supports various chart types, including line charts for overall performance and bar charts for individual stock contributions.
    ```
